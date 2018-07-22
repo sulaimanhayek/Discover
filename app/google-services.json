@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1004242029028",
+    "firebase_url": "https://discover-36849.firebaseio.com",
+    "project_id": "discover-36849",
+    "storage_bucket": "discover-36849.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004242029028:android:bbe38c99e9548757",
+        "android_client_info": {
+          "package_name": "com.soluapps.sulaiman.discover"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004242029028-dhh3g08r0e1gvtqa6bjsdt1iaaqfs4rc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.soluapps.sulaiman.discover",
+            "certificate_hash": "1cce2479c3c2ab08247cdb11d15a9b5f96644f7f"
+          }
+        },
+        {
+          "client_id": "1004242029028-hjli9tnir1su3ikf5epv74c4qdagunqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2Cak_VCNdNU7ILq1qz9K4RM9XY5Bn4tU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004242029028-hjli9tnir1su3ikf5epv74c4qdagunqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

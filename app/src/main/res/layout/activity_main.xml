@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/up"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:text="@string/space_facts"
+            android:textColor="@color/lightorange"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:text="@string/discover_planets"
+            android:textAlignment="center"
+            android:textColor="@color/lightdarkerorange"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/down"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <com.imangazaliev.circlemenu.CircleMenu
+            android:id="@+id/circleMenu"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            app:hintsEnabled="true"
+            app:startAngle="180">
+
+            <!-- app:openOnStart="true"-->
+
+
+            <com.imangazaliev.circlemenu.CircleMenuButton
+                android:id="@+id/power"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:colorNormal="#80e2e3cd"
+                app:colorPressed="#80e2e3cd"
+                app:hintText="exit"
+                app:icon="@drawable/round_power_settings_new_white_24" />
+
+            <com.imangazaliev.circlemenu.CircleMenuButton
+                android:id="@+id/settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:colorNormal="#80f4ad90"
+                app:colorPressed="#80f4ad90"
+                app:hintText="settings"
+                app:icon="@drawable/round_settings_white_24" />
+
+            <!--  <com.imangazaliev.circlemenu.CircleMenuButton
+                  android:id="@+id/about"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  app:colorNormal="#80f9de87"
+                  app:colorPressed="#80f9de87"
+                  app:hintText="about"
+                  app:icon="@drawable/round_fingerprint_white_24" />
+
+              <com.imangazaliev.circlemenu.CircleMenuButton
+                  android:id="@+id/rate"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  app:colorNormal="#80d6f2e6"
+                  app:colorPressed="#80d6f2e6"
+                  app:hintText="Rate"
+                  app:icon="@drawable/round_stars_white_24" />
+  -->
+
+        </com.imangazaliev.circlemenu.CircleMenu>
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/buttonstyle"
+            android:text="@string/start_the_journey"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
