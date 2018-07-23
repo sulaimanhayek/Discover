@@ -17,9 +17,9 @@ import com.soluapps.sulaiman.discover.login.LoginAuth;
 
 public class Internet extends AppCompatActivity {
     Button btnTry;
-    public LinearLayout up_auth;
-    public RelativeLayout down_auth;
-    public Animation uptodown, downtoup;
+    private LinearLayout up_auth;
+    private RelativeLayout down_auth;
+    private Animation uptodown, downtoup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
