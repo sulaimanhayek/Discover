@@ -44,8 +44,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     // slide cover flow for the main categories
-   // implementation 'com.github.moondroid.coverflow:library:1.0'
+    // implementation 'com.github.moondroid.coverflow:library:1.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'android.arch.navigation:navigation-fragment:1.0.0-alpha09'
 
 }
 apply plugin: 'com.google.gms.google-services'
